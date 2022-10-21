@@ -206,3 +206,236 @@ color: black;
 
     /* color: pink,fuchsia; */
   }
+
+
+  .apple-header{
+
+    position: fixed;
+
+    top: 0;
+
+    left: 0;
+
+    right: 0;
+
+    background: #313132 !important;
+
+}
+
+.apple-nav{
+
+    margin: 0 auto;
+
+    max-width: 980px;
+
+    padding: 0 22px;
+
+    position: relative;
+
+    z-index: 2;
+
+    padding-left: max(22px,env(safe-area-inset-left));
+
+    padding-right: max(22px,env(safe-area-inset-right));
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+
+}
+
+.apple-nav a{
+
+    display: inline-block;
+
+    padding: 15px 0;
+
+    color: #949494;
+
+    font-size: 12px;
+
+    transition: 0.3s;
+
+}
+
+.apple-nav a:hover{
+
+   color:  #d7d7d7 !important;
+
+}
+
+.menu-bars{
+
+    display: none !important;
+
+}
+
+@media(max-width:992px){
+
+    .apple-nav{
+
+        margin: 0 auto;
+
+        max-width: 980px;
+
+        padding: 0 20px;
+
+        padding-left: max(20px,env(safe-area-inset-left));
+
+        padding-right: max(20px,env(safe-area-inset-right));
+
+    
+
+    }
+
+}
+
+@media(max-width:831px){
+
+    .apple-nav{
+
+        display: none;
+
+    }
+
+    .mobi-none{
+
+        display: none;
+
+       
+
+    }
+
+    .mobi-view{
+
+        position: fixed;
+
+        top: 0;
+
+        left: 0;
+
+        right: 0;
+
+        background-color: #000;
+
+        border-bottom: 1px solid #424245;
+
+    }
+
+    .menu-bars{
+
+        display: block !important;
+
+        font-size: 18px;
+
+        color: #ddd;
+
+    }
+
+    .active-menu{
+
+        display: block !important;
+
+       
+
+    }
+
+    .mobile-nav{
+
+        z-index: 9999 !important;
+
+        height: 100vh;
+
+        display: flex;
+
+        flex-direction: column;
+
+        position: relative;
+
+        top: 80px;
+
+        background-color: #000;
+
+        overflow: auto;
+
+ 
+
+    }
+
+    .mobi-nav{
+
+        display: flex;
+
+        justify-content: space-between;
+
+        align-items: center;
+
+        padding: 10px 15px;
+
+    }
+
+    .mobile-nav a{
+
+        width: 70%;
+
+        margin: 0 auto;
+
+        display: block !important;
+
+        text-align: left;
+
+        border-bottom: 1px solid #424245;
+
+        font-size: 17px;
+
+       
+
+    }
+
+    .nav-search{
+
+        border-bottom: 1px solid transparent !important;
+
+        width: 70%;
+
+        margin: 8px auto;
+
+        background: #1d1d1f;
+
+        border-radius: 10px;
+
+        display: none;
+
+        padding: 8px 15px !important;
+
+    }
+
+    .nav-search input{
+
+        width: 90%;
+
+        margin: 0 auto;
+
+        background: transparent;
+
+        padding-left: 15px;
+
+        border: none;
+
+        outline: none;
+
+        color: #d7d7d7;
+
+    }
+
+}
+
+ 
+
+
+
+
+
