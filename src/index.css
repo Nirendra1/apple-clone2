@@ -11,3 +11,198 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.iphone{
+  text-align: center;
+  color:black;
+  font-size: 40px;
+}
+.iphone1{
+  text-align: center;
+  color: black;
+  margin:0px;
+}
+.iphone2{
+  text-align: center;
+  color: dimgrey;
+
+}
+.iphone3{
+  margin-left: 550px;
+  text-align: center;
+  
+}
+
+.dem{
+  background-color: black;
+height: 560PX;
+width: 200;
+}
+.dem1{
+  padding: 35px;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+
+
+}
+.dem2{
+  color: white;
+  text-align: center;
+  /* margin-top: 50px; */
+  /* margin:50px */
+}
+
+.dem{
+  text-align: center;
+  color:dimgrey ;
+}
+
+
+
+.top{
+  /* background-color: slategrey; */
+  text-align: center;
+font-size: 20px;
+}
+.top1{
+  text-align: center;
+  font-size: 15px;
+}
+.top2{
+  text-align: center;
+  color: dimgrey;
+}
+.top3{
+  margin-left: 500px;
+}
+.som{
+   background-color: black;
+}
+.som1{
+  text-align: center;
+  font-size:40px ;
+  padding: 35PX;
+  color: white;
+}
+.som2{
+ /* text-align: center; */
+ margin-left: 450px;
+  height: 450px;
+  width: 400px;
+}
+.som3{
+  text-align: center;
+  color: white;
+}
+.singles{
+  text-align: center;
+  color: black;
+  font-size: 40px;
+
+}
+.singles1{
+  text-align: center;
+  color: black;
+}
+.singles2{
+  margin-left: 400px;
+  height: 500px;
+  width: 600px;
+}
+.moke{
+  padding: 35px;
+  text-align: center;
+  color: black;
+  /* display: flex; */
+  font-size: 35px;
+ 
+}
+.moke1{
+  text-align: center;
+  color:orangered ;
+
+}
+.moke2{
+  text-align: center;
+  color:black;
+}
+
+.moke3{
+  margin-left: 500px;
+  display: flex;
+  font-size: 30px;
+}
+.mann{
+  background-color: black;
+  height: 450px;
+  width: auto;
+
+}
+.man{
+  text-align: center;
+  padding: 35px;
+  color: white;
+  font-size: 40px;
+  
+}
+.man1{
+  text-align: center;
+  color: red;
+
+}
+.man2{
+  text-align: center;
+color: white;
+
+}
+.man3{
+  margin-left: 500px;
+  display: flex;
+}
+.pox{
+margin-top:5px;
+background-color: black;
+/* height:8000px; */
+
+
+}
+
+.pox1{
+  text-align: center;
+  padding:35px;
+
+  font-size: 40px;
+  color: white;
+  }
+  .pox2{
+text-align: center;
+color: white;
+
+  }
+  .pox3{
+    margin-left: 100px;
+  }
+
+  .stark{
+    background-color: white;
+  }
+  .stark1{
+    text-align: center;
+    color: black;
+        padding: 35px;
+        font-size: 35px;
+
+  }
+
+  .stark2{
+text-align: center;
+color: black;
+  }
+  
+
+  .stark3{
+    margin-left: 50px;
+    background-color:mistyrose
+
+    /* color: pink,fuchsia; */
+  }
