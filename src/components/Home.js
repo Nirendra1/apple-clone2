@@ -10,7 +10,7 @@ import Man from "./Man";
 import Pox from "./Pox";
 import Stark from "./Stark";
 import Navbar from "./Navbar";
-import ImageSlider from "./Imageslider";
+// import ImageSlider from "./Imageslider";
 
 
 const Home = () => {
@@ -35,7 +35,7 @@ const Home = () => {
             <Pox />
             <Stark />
 
-            <ImageSlider />
+            {/* <ImageSlider /> */}
         </>
 
 
